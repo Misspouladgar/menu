@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: relative;
+    height: 90px;
+}
+.search-container button{
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    float: right;
+    border-radius: 0 5px 5px 0;
+}
+.search-container input{
+    width: 100px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+.search-container input:hover{
+    width: 300px;
+    transition: 0.5s;
+}
+.navbar .navbar-left{
+    position: absolute;
+    margin-right: 872px;
+}
+.navbar .navbar-left .icon{
+    border-right: 1px solid white;
+}
+.navbar .navbar-left .fa-shopping-cart{
+    color:white;
+    font-size:17px;
+}
